@@ -33,17 +33,3 @@
     justify-content: center;
     justify-items: center;
 }
-.App, .root{
-    height: 100vh;
-    width: 100%;
-}
-
-.App{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-body{
-    display: block !important;
-}
