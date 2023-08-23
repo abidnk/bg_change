@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './Theme.css'
 
-const Theme = () => {
+const Theme=()=> {
     const [themechange, setThemechange] = useState(false);
 
     const ThemeSwitch = () => {
@@ -10,7 +10,9 @@ const Theme = () => {
 
   return (
     <div className={`change-theme ${themechange ? 'dark' : 'white'}`}>
-        <button className='theme-button' onClick={ThemeSwitch}>Switch Theme</button>
+        <div className='btn'>
+            <button className='theme-button' onClick={ThemeSwitch}>Switch Theme</button>
+        </div>
     </div>
   )
 }

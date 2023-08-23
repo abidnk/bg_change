@@ -4,20 +4,46 @@
 
 .white{
     height: 100vh;
-    width: 300vh;
+    width: 100vw;
     color: black;
     background-color: white;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .dark{
     height: 100vh;
-    width: 300vh;
+    width: 100vw;
     color: white;
     background-color: black;
 }
 
 .theme-button{
+    
     color: white;
     background-color: black;
     border-radius: 22px;
+}
+.change-theme{
+    
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.App, .root{
+    height: 100vh;
+    width: 100%;
+}
+
+.App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    display: block !important;
 }
